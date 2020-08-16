@@ -9,6 +9,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Native.XQ.Test", "Native.XQ
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Native.XQ.SDK", "Native.XQ.SDK\Native.XQ.SDK.csproj", "{5999838B-1582-4DC9-95C3-72291CE4FC88}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoonSliver.UI", "MoonSliver.UI\MoonSliver.UI.csproj", "{E56623B5-E5B8-43A0-B1F2-972584770107}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoonSliver.Code", "MoonSliver.Code\MoonSliver.Code.csproj", "{73118FE9-106B-41EF-9FD0-5F2C368DB98F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -55,6 +59,30 @@ Global
 		{5999838B-1582-4DC9-95C3-72291CE4FC88}.Release|x64.Build.0 = Release|Any CPU
 		{5999838B-1582-4DC9-95C3-72291CE4FC88}.Release|x86.ActiveCfg = Release|Any CPU
 		{5999838B-1582-4DC9-95C3-72291CE4FC88}.Release|x86.Build.0 = Release|Any CPU
+		{E56623B5-E5B8-43A0-B1F2-972584770107}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E56623B5-E5B8-43A0-B1F2-972584770107}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E56623B5-E5B8-43A0-B1F2-972584770107}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{E56623B5-E5B8-43A0-B1F2-972584770107}.Debug|x64.Build.0 = Debug|Any CPU
+		{E56623B5-E5B8-43A0-B1F2-972584770107}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{E56623B5-E5B8-43A0-B1F2-972584770107}.Debug|x86.Build.0 = Debug|Any CPU
+		{E56623B5-E5B8-43A0-B1F2-972584770107}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E56623B5-E5B8-43A0-B1F2-972584770107}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E56623B5-E5B8-43A0-B1F2-972584770107}.Release|x64.ActiveCfg = Release|Any CPU
+		{E56623B5-E5B8-43A0-B1F2-972584770107}.Release|x64.Build.0 = Release|Any CPU
+		{E56623B5-E5B8-43A0-B1F2-972584770107}.Release|x86.ActiveCfg = Release|Any CPU
+		{E56623B5-E5B8-43A0-B1F2-972584770107}.Release|x86.Build.0 = Release|Any CPU
+		{73118FE9-106B-41EF-9FD0-5F2C368DB98F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73118FE9-106B-41EF-9FD0-5F2C368DB98F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73118FE9-106B-41EF-9FD0-5F2C368DB98F}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{73118FE9-106B-41EF-9FD0-5F2C368DB98F}.Debug|x64.Build.0 = Debug|Any CPU
+		{73118FE9-106B-41EF-9FD0-5F2C368DB98F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{73118FE9-106B-41EF-9FD0-5F2C368DB98F}.Debug|x86.Build.0 = Debug|Any CPU
+		{73118FE9-106B-41EF-9FD0-5F2C368DB98F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73118FE9-106B-41EF-9FD0-5F2C368DB98F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73118FE9-106B-41EF-9FD0-5F2C368DB98F}.Release|x64.ActiveCfg = Release|Any CPU
+		{73118FE9-106B-41EF-9FD0-5F2C368DB98F}.Release|x64.Build.0 = Release|Any CPU
+		{73118FE9-106B-41EF-9FD0-5F2C368DB98F}.Release|x86.ActiveCfg = Release|Any CPU
+		{73118FE9-106B-41EF-9FD0-5F2C368DB98F}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

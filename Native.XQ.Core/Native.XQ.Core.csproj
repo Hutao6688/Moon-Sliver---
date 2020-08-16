@@ -9,7 +9,7 @@
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Native.XQ.Core</RootNamespace>
-    <AssemblyName>ExampleAPP</AssemblyName>
+    <AssemblyName>MoonSliver</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -84,9 +84,6 @@
   <ItemGroup>
     <Compile Include="Events\Core\EventContainer.cs" />
     <Compile Include="Events\Core\XQEvent.cs" />
-    <Compile Include="Events\Event_AddFriend.cs" />
-    <Compile Include="Events\Event_GroupMessage.cs" />
-    <Compile Include="Events\Event_PrivateMessage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="XQMain.cs" />
   </ItemGroup>
@@ -94,6 +91,14 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\MoonSliver.Code\MoonSliver.Code.csproj">
+      <Project>{73118fe9-106b-41ef-9fd0-5f2c368db98f}</Project>
+      <Name>MoonSliver.Code</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MoonSliver.UI\MoonSliver.UI.csproj">
+      <Project>{e56623b5-e5b8-43a0-b1f2-972584770107}</Project>
+      <Name>MoonSliver.UI</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Native.XQ.SDK\Native.XQ.SDK.csproj">
       <Project>{5999838b-1582-4dc9-95c3-72291ce4fc88}</Project>
       <Name>Native.XQ.SDK</Name>

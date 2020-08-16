@@ -7,6 +7,8 @@ using Native.XQ.Core.Events;
 using Native.XQ.SDK.Core;
 using Native.XQ.SDK.Interfaces;
 using Unity;
+using MoonSliver.Code;
+using MoonSliver.UI;
 
 namespace Native.XQ.Core
 {
@@ -26,10 +28,10 @@ namespace Native.XQ.Core
         {
             return new XQAppInfo()
             {
-                name = "ExampleAPP",//请同步更改Core的程序集名为 %name%.XQ
-                pver = "1.0.2",//应用版本
-                author = "ExampleAuthor",//应用作者
-                desc = "A Example App",//插件描述
+                name = "MoonSliver",//请同步更改Core的程序集名为 %name%.XQ
+                pver = "1.0.0",//应用版本
+                author = "Heer",//应用作者
+                desc = "苏醒吧,冰箱的主人",//插件描述
                 sver = 1//SDK版本，请勿随意修改
 
             };
@@ -49,8 +51,8 @@ namespace Native.XQ.Core
         {
             
             unityContainer.RegisterType<IXQGroupMessage, Event_GroupMessage>();
-            unityContainer.RegisterType<IXQPrivateMessage, Event_PrivateMessage>();
-            unityContainer.RegisterType<IXQAddFriend, Event_AddFriend>();
+            unityContainer.RegisterType<IXQAppEnable, Event_AppEnable>();
+            unityContainer.RegisterType<IXQCallMenu, MenuCaller>();
         }
     }
 
